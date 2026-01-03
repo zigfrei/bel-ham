@@ -1,0 +1,89 @@
+@import url(./variables/radius.css);
+@import url(./variables/colors.css);
+@import url(./variables/animation.css);
+@import url(./variables/layers.css);
+@import url(./variables/typography.css);
+@import "normalize.css";
+
+
+:root {
+  --font-text: "Inter Variable", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", Courier, monospace;
+}
+
+@font-face {
+  font-family: Inter Variable;
+  src: url("/fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter Variable;
+  src: url("/fonts/InterVariable-Italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url("/fonts/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-text);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-paragraph-m);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  pointer-events: all !important;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

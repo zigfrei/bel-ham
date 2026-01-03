@@ -1,0 +1,7 @@
+:root {
+  --header-layer: 10;
+  --decorator-layer: 1;
+  --content-layear: 2;
+  --modal-layer: 100;
+  --cookie-modal-layer: 101;
+}

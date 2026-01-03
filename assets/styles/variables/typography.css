@@ -1,0 +1,132 @@
+
+
+.font-text-xxl {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+
+
+.font-text-4xl-b {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+.font-text-xl-mono {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.font-text-lg {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.font-text-lg-mono-b {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.font-text-base {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-text-base-b {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.font-text-sm-b-mono {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.font-text-sm {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.font-text-sm-mono {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.font-text-sm-b {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.font-text-sm-sb {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.font-text-xs-b {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.font-text-xs {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+}
+
+.font-text-xs-mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.44px;
+}
+
+.font-text-xsm-b-mono {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+.font-text-xsm-b {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+.font-text-xxl {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.font-text-4xl-b {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+.font-text-lg {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-text-sm-mono{
+    font-size: 10px;
+  line-height: 14px;
+}
+}
