@@ -12,7 +12,7 @@ import { newsCards } from '~/data/news';
             Будьте в курсе последних событий и обновлений.
           </p>
         </div>
-        <nuxt-link to="/news" class="btn-text font-text-sm-b"
+        <nuxt-link to="/#" class="btn-text font-text-sm-b"
           ><span>Все новости</span><icon name="icons:arrow-right" size="16px"
         /></nuxt-link>
       </header>
